@@ -1,0 +1,356 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CC81B919-4751-4D1A-8035-D62BC0922FD2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Volkan_SARIKAYA</RootNamespace>
+    <AssemblyName>Volkan SARIKAYA</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ARTTIRMA VE AZALTMA OPARATÖRÜ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ARTTIRMA VE AZALTMA OPARATÖRÜ.Designer.cs">
+      <DependentUpon>ARTTIRMA VE AZALTMA OPARATÖRÜ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ARİTMETİKSEL OPARATÖRLER.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ARİTMETİKSEL OPARATÖRLER.Designer.cs">
+      <DependentUpon>ARİTMETİKSEL OPARATÖRLER.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BİRLESİM VE ARTTIRMA ÖZELLİĞİ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BİRLESİM VE ARTTIRMA ÖZELLİĞİ.Designer.cs">
+      <DependentUpon>BİRLESİM VE ARTTIRMA ÖZELLİĞİ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BİRLEŞİM ÖZELLİĞİ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BİRLEŞİM ÖZELLİĞİ.Designer.cs">
+      <DependentUpon>BİRLEŞİM ÖZELLİĞİ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DEĞER VE BASVURU TÜRLERİ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DEĞER VE BASVURU TÜRLERİ.Designer.cs">
+      <DependentUpon>DEĞER VE BASVURU TÜRLERİ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DÖNGÜ YAPILARI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DÖNGÜ YAPILARI.Designer.cs">
+      <DependentUpon>DÖNGÜ YAPILARI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Değişkenler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Değişkenler.Designer.cs">
+      <DependentUpon>Değişkenler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HATA AYIKLAMA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HATA AYIKLAMA.Designer.cs">
+      <DependentUpon>HATA AYIKLAMA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KAPSAM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KAPSAM.Designer.cs">
+      <DependentUpon>KAPSAM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MANTIKSAL OPERATORLER.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MANTIKSAL OPERATORLER.Designer.cs">
+      <DependentUpon>MANTIKSAL OPERATORLER.cs</DependentUpon>
+    </Compile>
+    <Compile Include="METOT CAGIRMA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="METOT CAGIRMA.Designer.cs">
+      <DependentUpon>METOT CAGIRMA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="METOT TANIMLAMA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="METOT TANIMLAMA.Designer.cs">
+      <DependentUpon>METOT TANIMLAMA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="METOTLAR.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="METOTLAR.Designer.cs">
+      <DependentUpon>METOTLAR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OPARATÖRLER.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OPARATÖRLER.Designer.cs">
+      <DependentUpon>OPARATÖRLER.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ARTTIRMA VE AZALTMA OPARATÖRÜ.resx">
+      <DependentUpon>ARTTIRMA VE AZALTMA OPARATÖRÜ.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ARİTMETİKSEL OPARATÖRLER.resx">
+      <DependentUpon>ARİTMETİKSEL OPARATÖRLER.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BİRLESİM VE ARTTIRMA ÖZELLİĞİ.resx">
+      <DependentUpon>BİRLESİM VE ARTTIRMA ÖZELLİĞİ.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BİRLEŞİM ÖZELLİĞİ.resx">
+      <DependentUpon>BİRLEŞİM ÖZELLİĞİ.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DEĞER VE BASVURU TÜRLERİ.resx">
+      <DependentUpon>DEĞER VE BASVURU TÜRLERİ.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Değişkenler.resx">
+      <DependentUpon>Değişkenler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DÖNGÜ YAPILARI.resx">
+      <DependentUpon>DÖNGÜ YAPILARI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HATA AYIKLAMA.resx">
+      <DependentUpon>HATA AYIKLAMA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KAPSAM.resx">
+      <DependentUpon>KAPSAM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MANTIKSAL OPERATORLER.resx">
+      <DependentUpon>MANTIKSAL OPERATORLER.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="METOT CAGIRMA.resx">
+      <DependentUpon>METOT CAGIRMA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="METOT TANIMLAMA.resx">
+      <DependentUpon>METOT TANIMLAMA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="METOTLAR.resx">
+      <DependentUpon>METOTLAR.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OPARATÖRLER.resx">
+      <DependentUpon>OPARATÖRLER.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RETURN İFADESİNİ YAZMA.resx">
+      <DependentUpon>RETURN İFADESİNİ YAZMA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SINIFLAR.resx">
+      <DependentUpon>SINIFLAR.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VAR DEĞİŞKEN TÜRÜ.resx">
+      <DependentUpon>VAR DEĞİŞKEN TÜRÜ.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VERİ TÜRLERİ.resx">
+      <DependentUpon>VERİ TÜRLERİ.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ÖRNEK.resx">
+      <DependentUpon>ÖRNEK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ÖRNEKLER 2.resx">
+      <DependentUpon>ÖRNEKLER 2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ÖRNEKLER 3.resx">
+      <DependentUpon>ÖRNEKLER 3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="İSLECLER VE TÜRLERİ.resx">
+      <DependentUpon>İSLECLER VE TÜRLERİ.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="İSLEM ÖNCELİĞİ.resx">
+      <DependentUpon>İSLEM ÖNCELİĞİ.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ŞART İFADELERİ.resx">
+      <DependentUpon>ŞART İFADELERİ.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="RETURN İFADESİNİ YAZMA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RETURN İFADESİNİ YAZMA.Designer.cs">
+      <DependentUpon>RETURN İFADESİNİ YAZMA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SINIFLAR.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SINIFLAR.Designer.cs">
+      <DependentUpon>SINIFLAR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VAR DEĞİŞKEN TÜRÜ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VAR DEĞİŞKEN TÜRÜ.Designer.cs">
+      <DependentUpon>VAR DEĞİŞKEN TÜRÜ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VERİ TÜRLERİ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VERİ TÜRLERİ.Designer.cs">
+      <DependentUpon>VERİ TÜRLERİ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ÖRNEK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ÖRNEK.Designer.cs">
+      <DependentUpon>ÖRNEK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ÖRNEKLER 2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ÖRNEKLER 2.Designer.cs">
+      <DependentUpon>ÖRNEKLER 2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ÖRNEKLER 3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ÖRNEKLER 3.Designer.cs">
+      <DependentUpon>ÖRNEKLER 3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="İSLECLER VE TÜRLERİ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="İSLECLER VE TÜRLERİ.Designer.cs">
+      <DependentUpon>İSLECLER VE TÜRLERİ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="İSLEM ÖNCELİĞİ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="İSLEM ÖNCELİĞİ.Designer.cs">
+      <DependentUpon>İSLEM ÖNCELİĞİ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ŞART İFADELERİ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ŞART İFADELERİ.Designer.cs">
+      <DependentUpon>ŞART İFADELERİ.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
