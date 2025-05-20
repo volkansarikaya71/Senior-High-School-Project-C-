@@ -1,2 +1,1 @@
-Requirements
--visual studio 2019 
+Bu proje, lise yıllarımda öğrendiğim tüm C# konularını içeren ve geliştirdiğim ilk projedir. C# öğrenirken edindiğim tüm bilgileri bu projede uygulamaya çalıştım. Her konuyu detaylı bir şekilde açıklayarak, öğrenmek isteyenler için anlaşılır örnekler ekledim. Amacım, hem kendi gelişimimi göstermek hem de başkalarının da C# öğrenmesine yardımcı olmaktır.
